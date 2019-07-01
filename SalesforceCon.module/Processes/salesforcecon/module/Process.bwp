@@ -973,6 +973,7 @@
                                     name="config" xsi:type="activityconfig:EMFProperty">
                                     <type href="http://ns.tibco.com/bw/palette/bwsalesforce#//SalesforceCreate"/>
                                     <value
+                                    partnerLink="salesforce"
                                     salesforceConnection="salesforceConnProperty"
                                     wsdlPath="/SalesforceResources/partner_35_0.wsdl" xsi:type="bwsalesforce:SalesforceCreate"/>
                                     </properties>
