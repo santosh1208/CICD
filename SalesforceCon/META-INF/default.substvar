@@ -2,6 +2,21 @@
 <repository xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns = "http://www.tibco.com/xmlns/repo/types/2002">
 	<globalVariables>
 		<globalVariable>
+			<name>salesforce.wsdl</name>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>username</name>
+			<value>sbhutkar@shell.com</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
 			<name>//SalesforceCon.module//BW.APPNODE.NAME</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
@@ -59,11 +74,11 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//SalesforceCon.module//salesforce.wsdl</name>
-			<value>%%salesforce.wsdl%%</value>
+			<value>/SalesforceResources/partner_35_0.wsdl</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>true</isOverride>
+			<isOverride>false</isOverride>
 		</globalVariable>
 		<globalVariable>
 			<name>//SalesforceCon.module//salesforce.xsd</name>
@@ -83,7 +98,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//SalesforceCon.module//password</name>
-			<value>#!vKSz7xEheYRdTrdI/jzxBW+jl3A6IyQKQvH+I87gLH5VLy3NfZ0PL8Z5120s8k7NJnfE+VuzxIavVhm70pbDyLTaDzg/BLMaNxGHb7QmqFs=</value>
+			<value>#!0FTHZ3uXdXalMKdVotRy+ArQfcYWidtNbXeBw9L9Fv8Ssg2sH4cBHa2phBzq2xk8o34LrxSV3ilHJaTdP8vHIrE6xnT+bqvaoASK1xYL0MM=</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Password</type>

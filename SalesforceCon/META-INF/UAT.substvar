@@ -2,6 +2,21 @@
 <repository xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns = "http://www.tibco.com/xmlns/repo/types/2002">
 	<globalVariables>
 		<globalVariable>
+			<name>salesforce.wsdl</name>
+			<value>/SalesforceResources/partner_35_0.wsdl</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
+			<name>username</name>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+		</globalVariable>
+		<globalVariable>
 			<name>//SalesforceCon.module//BW.APPNODE.NAME</name>
 			<value></value>
 			<deploymentSettable>false</deploymentSettable>
@@ -83,7 +98,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//SalesforceCon.module//password</name>
-			<value>#!vKSz7xEheYRdTrdI/jzxBW+jl3A6IyQKQvH+I87gLH5VLy3NfZ0PL8Z5120s8k7NJnfE+VuzxIavVhm70pbDyLTaDzg/BLMaNxGHb7QmqFs=</value>
+			<value>#!9Udr6vvYm4ELwua0VQUp78ruDko+sA2lfmHn+KkWTbuHVrbKYwatfJnsIi2gJMUjmyeqjZykbmAg0ffHfSUoNsOB33inx9/aAFJjXjnLfic=</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Password</type>
