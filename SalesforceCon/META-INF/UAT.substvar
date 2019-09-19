@@ -106,11 +106,11 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//SalesforceCon.module//username</name>
-			<value>sbhutkar@shell.com</value>
+			<value></value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>false</isOverride>
+			<isOverride>true</isOverride>
 		</globalVariable>
 	</globalVariables>
 </repository>
