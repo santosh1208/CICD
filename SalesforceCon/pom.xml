@@ -12,11 +12,11 @@
   <packaging>bwear</packaging>
   <properties>
     <skipTests>false</skipTests>
-    <bw.Home></bw.Home>
-    <docker.env.property.file>/home/tibco/Desktop/MSA/GitRepo/SalesforceCon/docker-host-env-dev.properties</docker.env.property.file>
     <project.type>Docker</project.type>
-    <failIfNoTests>false</failIfNoTests>
+    <docker.env.property.file>/home/tibco/Desktop/MSA/GitRepo/SalesforceCon/docker-host-env-dev.properties</docker.env.property.file>
+    <bw.Home></bw.Home>
     <docker.property.file>docker-dev.properties</docker.property.file>
+    <failIfNoTests>false</failIfNoTests>
     <tibco.Home></tibco.Home>
   </properties>
   <build>
