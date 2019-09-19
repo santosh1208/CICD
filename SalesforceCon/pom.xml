@@ -13,7 +13,7 @@
   <properties>
     <skipTests>false</skipTests>
     <project.type>Docker</project.type>
-    <docker.env.property.file>/home/tibco/Desktop/MSA/GitRepo/SalesforceCon/docker-host-env-dev.properties</docker.env.property.file>
+    <docker.env.property.file>docker-host-env-dev.properties</docker.env.property.file>
     <bw.Home></bw.Home>
     <docker.property.file>docker-dev.properties</docker.property.file>
     <failIfNoTests>false</failIfNoTests>
